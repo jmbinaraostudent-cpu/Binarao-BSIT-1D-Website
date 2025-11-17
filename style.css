@@ -1,0 +1,57 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+.header {
+    width: 100%;
+    padding: 15px 40px;
+    background-color: #5a2ea6;  /* Purple background */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Title on the left */
+.logo {
+    font-family: Georgia, serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;  /* White title text */
+    margin: 0;
+}
+
+/* Center navigation */
+.center-nav a {
+    text-decoration: none;
+    color: white;  /* White nav text */
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.center-nav a:hover {
+    color: #c4b5fd;  /* Light purple on hover */
+    transform: scale(1.1);
+}
+
+/* Right side links */
+.right a {
+    text-decoration: none;
+    color: white;  /* White text */
+    background-color: #7c3aed; /* Bright purple background */
+    padding: 6px 12px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.right a:hover {
+    background-color: #6d28d9; /* Darker purple on hover */
+    transform: scale(1.1);
+}
